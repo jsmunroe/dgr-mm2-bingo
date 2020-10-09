@@ -17,3 +17,13 @@ table {
 .cell.free {
     background: white;
 }
+
+.select {
+    position: relative;
+    margin-top: -112px;
+    display: none;
+}
+
+.show {
+    display: block;
+}

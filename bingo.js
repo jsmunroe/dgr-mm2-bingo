@@ -10,4 +10,8 @@ function randomize() {
     }
 }
 
+$('.cell').on('mousedown', function(event) {
+    $(this).find('.select').toggleClass('show');
+});
+
 randomize();
