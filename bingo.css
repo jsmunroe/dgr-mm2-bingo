@@ -1,0 +1,19 @@
+
+body {
+    font-family: 'calibri', 'arial';
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.cell {
+    width: 112px;
+    height: 112px;
+    background: #FFE9B7;
+    border: 2px black solid;
+}
+
+.cell.free {
+    background: white;
+}
