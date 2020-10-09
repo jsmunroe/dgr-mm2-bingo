@@ -3,6 +3,21 @@ body {
     font-family: 'calibri', 'arial';
 }
 
+.board {
+    background-color: #FFD302;
+    padding: 20px;
+    margin: 20px;
+    float:left;
+    
+    -webkit-box-shadow: 10px 10px 3px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 3px 0px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 3px 0px rgba(0,0,0,0.5);
+}
+
+.board .banner {
+    margin-bottom: 10px;
+}
+
 table {
     border-collapse: collapse;
 }
